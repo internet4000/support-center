@@ -2,20 +2,23 @@
 
 body {
     background-color: mintcream;
+    color: #1a1a1a;
+    line-height: 1.4;
     max-width: 40rem;
     font-size: 16px;
+    margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 h1 {
     font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.3rem;
 }
 
 h2 {
     font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.3rem;
 }
 
 p {
@@ -23,9 +26,18 @@ p {
 }
 
 section {
-    margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 
 article {
     margin-bottom: 3rem;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.07);
 }
