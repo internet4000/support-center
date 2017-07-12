@@ -41,3 +41,16 @@ nav a {
     padding: 2rem;
     background-color: rgba(0, 0, 0, 0.07);
 }
+
+ol,
+ul {
+    list-style: inside;
+}
+
+ol {
+    list-style-type: number;
+}
+
+ul {
+    list-style-type: circle;
+}
