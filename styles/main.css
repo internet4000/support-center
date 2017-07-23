@@ -5,20 +5,24 @@ body {
     color: #1a1a1a;
     line-height: 1.4;
     max-width: 40rem;
+    padding: 2rem 1rem;
     font-size: 16px;
-    margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
 }
 
+h1,
+h2 {
+	line-height: 1.2;
+	margin-bottom: 1.3rem;
+}
+
 h1 {
     font-size: 2.5rem;
-    margin-bottom: 1.3rem;
 }
 
 h2 {
     font-size: 1.5rem;
-    margin-bottom: 1.3rem;
 }
 
 p {
