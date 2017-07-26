@@ -40,5 +40,5 @@ var AddAnchors = {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  AddAnchors.init('span')
+  AddAnchors.init('h2')
 })
