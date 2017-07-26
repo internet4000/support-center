@@ -1,60 +1,62 @@
 @import "./reset.css";
 
 body {
-    background-color: mintcream;
-    color: #1a1a1a;
-    line-height: 1.4;
-    max-width: 40rem;
-    padding: 2rem 1rem;
-    font-size: 16px;
-    margin-left: auto;
-    margin-right: auto;
+	background-color: mintcream;
+	color: #1a1a1a;
+	font-size: 16px;
+	font-family: 'system-ui';
+	line-height: 1.4;
+	max-width: 40rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2rem 1rem;
 }
 
 h1,
 h2 {
 	line-height: 1.2;
-	margin-bottom: 1.3rem;
+	margin-bottom: 1rem;
+	font-weight: bold;
 }
 
 h1 {
-    font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 p {
-    margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 section {
-    margin-bottom: 4rem;
+	margin-bottom: 4rem;
 }
 
 article {
-    margin-bottom: 3rem;
+	margin-bottom: 2rem;
 }
 
 nav {
-    display: flex;
+	display: flex;
 }
 
 nav a {
-    padding: 2rem;
-    background-color: rgba(0, 0, 0, 0.07);
+	padding: 2rem;
+	background-color: rgba(0, 0, 0, 0.07);
 }
 
 ol,
 ul {
-    list-style: inside;
+	list-style: inside;
 }
 
 ol {
-    list-style-type: decimal;
+	list-style-type: decimal;
 }
 
 ul {
-    list-style-type: circle;
+	list-style-type: circle;
 }
