@@ -1,7 +1,7 @@
 @import "./reset.css";
 
 body {
-	background-color: mintcream;
+	background-color: white;
 	color: #1a1a1a;
 	font-size: 16px;
 	font-family: 'system-ui';
@@ -53,6 +53,7 @@ nav {
 nav a {
 	padding: 2rem;
 	background-color: rgba(0, 0, 0, 0.07);
+	margin-right: 2rem;
 }
 
 ol,
