@@ -56,8 +56,15 @@ nav {
 
 nav a {
 	padding: 2rem;
-	background-color: rgba(0, 0, 0, 0.07);
+	border: 2px solid rgba(0, 0, 0, 0.07);
 	margin-right: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+nav a img {
+	max-width: 4rem;
 }
 
 ol,
