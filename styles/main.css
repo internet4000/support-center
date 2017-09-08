@@ -7,8 +7,8 @@ body {
 	font-family: 'system-ui', '-apple-system', sans-serif;
 	line-height: 1.4;
 	max-width: 40rem;
-	margin-left: auto;
-	margin-right: auto;
+	/* margin-left: auto; */
+	/* margin-right: auto; */
 	padding: 2rem 1rem;
 }
 
