@@ -9,7 +9,7 @@ body {
 	max-width: 40rem;
 	/* margin-left: auto; */
 	/* margin-right: auto; */
-	padding: 2rem 1rem;
+	padding: 2rem 5%;
 }
 
 h1,
@@ -65,6 +65,7 @@ nav a {
 	align-items: center;
 	justify-content: center;
 }
+
 nav a img {
 	max-width: 4rem;
 }
@@ -81,3 +82,4 @@ ol {
 ul {
 	list-style-type: circle;
 }
+
