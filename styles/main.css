@@ -52,12 +52,14 @@ article {
 
 nav {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 nav a {
 	padding: 2rem;
 	border: 2px solid rgba(0, 0, 0, 0.07);
 	margin-right: 2rem;
+	margin-bottom: 2rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
