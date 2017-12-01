@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ .Page.Language | default " en " }}">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+	{{ .Hugo.Generator }}
+	<title>{{ .Title }} - {{ .Site.Title }}</title>
+	{{ template "_internal/opengraph.html" . }}
+	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css"/>
+	<link rel="stylesheet" href="{{"docs.css" | relURL}}">
+</head>
+<body class="sans-serif flex lh-copy debug-grid-16NONO" data-url="{{ .RelPermalink }}">
+
+<aside class="w5-ns flex-shrink-0-ns f6">
+	{{ partial "menu.html" . }}
+	<!-- {{ partial "menu-simple.html" . }} -->
+</aside>
+
+<main class="ph3 flex-grow-1">
+	<div class="flex mt3 mb4 f6">
+		<div class="flex-grow-1">
+			{{ template "breadcrumb" dict "page" . "value" .Title }}
+		</div>
+		{{ partial "edit-link.html" . }}
+	</div>
