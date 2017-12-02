@@ -2,14 +2,20 @@
 
 <article class="measure-wide" data-list>
 	<h1>{{ .Title }}</h1>
-	{{ .Content }}
+
+	<div class="flex-grow-1">
+		{{ template "breadcrumb" dict "page" . "value" .Title }}
+	</div>
 
 	<aside>
 		{{ if and (gt .WordCount 200 ) (ne .Params.toc "false") }}
-			<h3>Table of contents</h3>
-			{{.TableOfContents}}
+		<h3>Table of contents</h3>
+		{{.TableOfContents}}
 		{{ end }}
 	</aside>
+
+	{{ .Content }}
+
 </article>
 
 
