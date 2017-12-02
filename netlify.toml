@@ -1,0 +1,5 @@
+# Configure building hugo for the "hugo" branch.
+[context.hugo]
+  HUGO_VERSION = "0.31.1"
+  publish = "dist"
+	command = "hugo"

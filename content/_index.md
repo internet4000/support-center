@@ -2,7 +2,7 @@
 title: Support Center
 ---
 
-# Support center ☯
+# Support Center ☯
 
 Find help and get assistance with <a href="https://internet4000.com">Internet4000</a>'s projects.
 

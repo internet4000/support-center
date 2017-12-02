@@ -1,10 +1,15 @@
+/*
+	Styles for the "Docs" theme for Hugo.
+	Also see http://tachyons.io/docs/
+*/
+
 /* Active menu styles */
 li.active > a {
 	background: blue;
 	color: white;
 }
 
-/* remove extra nested ul */
+/* Remove extra nested ul that we don't control */
 #TableOfContents > ul {
 	list-style: none;
 	padding-left: 0;
