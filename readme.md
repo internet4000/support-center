@@ -1,4 +1,4 @@
-# Support center
+# Support Center
 
 This project aims to offer an easy to maintain, minimalistic, unified, project-independant place for Internet4000's support pages.
 

@@ -1,6 +1,6 @@
 baseURL = "/"
 # baseURL = "http://support.internet4000.com/"
-title = "Internet4000 support"
+title = "Internet4000 Support Center"
 theme = "docs"
 publishDir = "dist"
 languageCode = "en"
