@@ -4,6 +4,7 @@ title = "Internet4000 support"
 theme = "docs"
 publishDir = "dist"
 languageCode = "en"
+staticDir = ["static"]
 # metaDataFormat = "yaml""
 
 sectionPagesMenu = "main"
