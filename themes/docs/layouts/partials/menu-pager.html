@@ -34,9 +34,9 @@
 
 <p>
 	{{with ($.Scratch.Get "prevPage")}}
-			<a class="nav nav-prev" href="{{.URL}}" title="{{.Title}}">&larr; Prev</a>
+			<a class="nav-prev" href="{{.URL}}" title="{{.Title}}">&larr; Prev</a>
 	{{end}}
 	{{with ($.Scratch.Get "nextPage")}}
-			<a class="nav nav-next" href="{{.URL}}" title="{{.Title}}" style="margin-right: 0px;">Next &rarr;</a>
+			<a class="nav-next" href="{{.URL}}" title="{{.Title}}">Next &rarr;</a>
 	{{end}}
 </p>

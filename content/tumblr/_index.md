@@ -4,11 +4,8 @@ title: Tumblr
 
 Create a professional website with our [custom Tumblr
 themes](https://tumblr.internet4000.com).
-
 Need more assistance? Come [ask questions to our
 community](https://groups.google.com/forum/#!forum/balcony-themes)!
-
-
 
 ## Create a Tumblr site/blog (account)
 
@@ -18,8 +15,8 @@ community](https://groups.google.com/forum/#!forum/balcony-themes)!
 - In the dropdown menu that opened, select the "+ New" button
 - Enter your blog information in the new page, click "create blog"; voilà!
 
-
 ## Go to my Tumblr blog (the blog URL)
+
 - You need to be logged in Tumblr, at [https://tumblr.com](https://tumblr.com)
 - Go to [https://tumblr.com](https://tumblr.com) and click the person icons (👤)
 - In the dropdown menu that opened, select (click) your blog
@@ -36,6 +33,7 @@ community](https://groups.google.com/forum/#!forum/balcony-themes)!
 	using this Theme<br/> **"install"**, and select on which blog you want to install and use this theme.
 
 ## Create a new navigation element on my Tumblr site
+
 - You need to be logged in Tumblr, at [https://tumblr.com](https://tumblr.com)
 - Go to your Tumblr website url (ex: [https://my-website.tumblr.com](https://my-website.tumblr.com), find it via the link in step before.)
 - In the top right of your Tumblr blog, click "Edit Appeareace" menu icon, to customize your site.
@@ -45,11 +43,9 @@ community](https://groups.google.com/forum/#!forum/balcony-themes)!
 
 Read the following answers to find out what are the differences, and how to use, these different pages.
 
-
 ##  Manage all my blog pages and links
 
 ![Manage all my Tumblr pages and links](./tumblr-page-manage.png")
-
 
 ## Create a link in my site menu, to an "external page"
 
@@ -57,7 +53,6 @@ You will use this type of page if you would like to make a link in your menu to 
 It can be Facebook, Instagram, Soundcloud, Google Map, anything that you can link to!
 
 ![Create a link in ny Tumblr menu, to an "external page"](./tumblr-page-redirect.png")
-
 
 ## Create a link in my site menu, to an "standard layout page"
 
