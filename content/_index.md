@@ -8,7 +8,7 @@ Find help and get assistance with <a href="https://internet4000.com">Internet400
 
 Navigate using the menu to the left. Or use your arrow-keys &larr; &rarr;.
 
-## Aditionnal ressources
+## Additional ressources
 
 - [Visual and style assets](https://assets.internet4000.com) of each
   projects.
