@@ -10,8 +10,11 @@
 
 	{{ $currentPage := . }}
 	{{ range .Site.Menus.main }}
-	<option value="{{.URL}}">
-		{{ .Name }}
-	</option>
+	  <option value="{{.URL}}">
+		  {{ .Name }}
+	  </option>
+
 	{{ end }}
+
+	<option value="https://assets.internet4000.com">&rarr; visual assets</option>
 </select>

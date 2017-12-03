@@ -5,14 +5,24 @@
 		<a class="black db pa2" href="/">Home</a>
 	</li>
 	{{if eq .Site.Params.ordersectionsby "title"}}
-		{{range .Site.Home.Sections.ByTitle}}
-		{{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode }}
-		{{end}}
+	  {{range .Site.Home.Sections.ByTitle}}
+	    {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode }}
+	  {{end}}
 	{{else}}
-		{{range .Site.Home.Sections.ByWeight}}
-		{{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode }}
-		{{end}}
+	  {{range .Site.Home.Sections.ByWeight}}
+	    {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode }}
+	  {{end}}
 	{{end}}
+
+	<li>
+		<a
+			class="black db pa2"
+			href="https://assets.internet4000.com"
+			title="Visual assets for Internet4000's projects">&rarr; Assets</a>
+	</li>
+
+
+
 </ul>
 
 <!-- templates -->
