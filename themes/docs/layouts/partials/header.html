@@ -10,11 +10,15 @@
 	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css"/>
 	<link rel="stylesheet" href="{{"docs.css" | relURL}}">
 </head>
-<body class="sans-serif flex-ns lh-copy" data-url="{{ .RelPermalink }}">
+<body class="bg-washed-yellow sans-serif flex-ns lh-copy" data-url="{{ .RelPermalink }}">
 
-	<aside class="w5-ns flex-shrink-0-ns">
-		{{ partial "menu-select.html" . }}
-		{{ partial "menu.html" . }}
+	<aside class="flex-shrink-0-ns pa2">
+		<nav class="db dn-m dn-l">
+			{{ partial "menu-select.html" . }}
+		</nav>
+		<nav class="dn db-ns">
+			{{ partial "menu.html" . }}
+		</nav>
 </aside>
 
 <main class="ph3 flex-grow-1">

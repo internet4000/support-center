@@ -1,8 +1,8 @@
 {{ $currentNode := . }}
 
-<ul>
+<ul class="list pa0 ma0">
 	<li class="{{if .IsHome}}active{{end}}">
-		<a class="black" href="/">Support Center</a>
+		<a class="black db pa2" href="/">Home</a>
 	</li>
 	{{if eq .Site.Params.ordersectionsby "title"}}
 		{{range .Site.Home.Sections.ByTitle}}
@@ -22,12 +22,12 @@
 	{{if .IsSection}}
 		{{safeHTML .Params.head}}
 		<li data-nav-id="{{.URL}}" title="{{.Title}}" class="{{if .IsAncestor $currentNode }}parent{{end}} {{if eq .UniqueID $currentNode.UniqueID}}active{{end}} {{if .Params.alwaysopen}}parent{{end}}">
-			<a class="black" href="{{.RelPermalink}}">
+			<a class="black db pa2" href="{{.RelPermalink}}">
 				{{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
 			</a>
 			{{ $numberOfPages := (add (len .Pages) (len .Sections)) }}
 			{{ if ne $numberOfPages 0 }}
-				<ul>
+				<ul class="list pl3">
 					{{ .Scratch.Set "pages" .Pages }}
 					{{ if .Sections}}
 						{{ .Scratch.Set "pages" (.Pages | union .Sections) }}
@@ -55,7 +55,7 @@
 	{{else}}
 		{{ if not .Params.Hidden }}
 			<li data-nav-id="{{.URL}}" title="{{.Title}}" class="dd-item {{if eq .UniqueID $currentNode.UniqueID}}active{{end}}">
-				<a class="black" href="{{ .RelPermalink}}">
+				<a class="black db pa2" href="{{ .RelPermalink}}">
 				{{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
 				</a>
 		</li>

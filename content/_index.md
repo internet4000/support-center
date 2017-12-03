@@ -8,13 +8,11 @@ Find help and get assistance with <a href="https://internet4000.com">Internet400
 
 Navigate using the menu to the left. Or use your arrow-keys &larr; &rarr;.
 
-## External links
+## Aditionnal ressources
 
 - [Visual and style assets](https://assets.internet4000.com) of each
   projects.
-- [All Internet4000's code is on GitHub](https://github.com/internet4000)
-
-## Join the discussion
+- [Internet4000's code is on GitHub](https://github.com/internet4000)
 
 All this website and its content can be edited and commented on
 Github. [Ask a question &amp; discuss open
