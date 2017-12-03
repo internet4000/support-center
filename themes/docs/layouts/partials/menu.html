@@ -2,7 +2,7 @@
 
 <ul>
 	<li class="{{if .IsHome}}active{{end}}">
-		<a href="/">Support Center</a>
+		<a class="black" href="/">Support Center</a>
 	</li>
 	{{if eq .Site.Params.ordersectionsby "title"}}
 		{{range .Site.Home.Sections.ByTitle}}
@@ -22,7 +22,7 @@
 	{{if .IsSection}}
 		{{safeHTML .Params.head}}
 		<li data-nav-id="{{.URL}}" title="{{.Title}}" class="{{if .IsAncestor $currentNode }}parent{{end}} {{if eq .UniqueID $currentNode.UniqueID}}active{{end}} {{if .Params.alwaysopen}}parent{{end}}">
-			<a href="{{.RelPermalink}}">
+			<a class="black" href="{{.RelPermalink}}">
 				{{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
 			</a>
 			{{ $numberOfPages := (add (len .Pages) (len .Sections)) }}
@@ -55,7 +55,7 @@
 	{{else}}
 		{{ if not .Params.Hidden }}
 			<li data-nav-id="{{.URL}}" title="{{.Title}}" class="dd-item {{if eq .UniqueID $currentNode.UniqueID}}active{{end}}">
-				<a href="{{ .RelPermalink}}">
+				<a class="black" href="{{ .RelPermalink}}">
 				{{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
 				</a>
 		</li>
