@@ -14,3 +14,9 @@ li.active > a {
 	list-style: none;
 	padding-left: 0;
 }
+
+/* Reset line-height for titles */
+h1,
+h2 {
+	line-height: initial;
+}
