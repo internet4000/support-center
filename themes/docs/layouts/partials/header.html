@@ -14,7 +14,12 @@
 
 <aside class="w5-ns flex-shrink-0-ns">
 	{{ partial "menu.html" . }}
-	<!-- {{ partial "menu-simple.html" . }} -->
 </aside>
 
 <main class="ph3 flex-grow-1">
+	<p class="flex mb4">
+		<span class="flex-grow-1">
+			{{ template "breadcrumb" dict "page" . "value" .Title }}
+		</span>
+		<small>{{ partial "edit-link.html" . }}</small>
+	</p>
