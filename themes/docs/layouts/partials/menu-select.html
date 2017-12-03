@@ -1,0 +1,15 @@
+{{ $currentNode := . }}
+
+<select onChange="window.location.href=this.value">
+
+	<option disabled selected>Go to:</option>
+
+	<option value="/">☯ Homepage</option>
+
+	{{ $currentPage := . }}
+	{{ range .Site.Menus.main }}
+	<option value="{{.URL}}">
+		{{ .Name }}
+	</option>
+	{{ end }}
+</select>
