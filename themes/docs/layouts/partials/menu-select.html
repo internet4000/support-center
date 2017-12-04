@@ -1,0 +1,20 @@
+{{ $currentNode := . }}
+
+<select
+	class="w-100"
+	onChange="window.location.href=this.value">
+
+	<option disabled selected>Menu:</option>
+
+	<option value="/">☯ Homepage</option>
+
+	{{ $currentPage := . }}
+	{{ range .Site.Menus.main }}
+	  <option value="{{.URL}}">
+		  {{ .Name }}
+	  </option>
+
+	{{ end }}
+
+	<option value="https://assets.internet4000.com">&rarr; visual assets</option>
+</select>

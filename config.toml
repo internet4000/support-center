@@ -1,0 +1,19 @@
+baseURL = "/"
+# baseURL = "http://support.internet4000.com/"
+title = "Internet4000 Support Center"
+theme = "docs"
+publishDir = "dist"
+languageCode = "en"
+staticDir = ["static"]
+# metaDataFormat = "yaml""
+
+sectionPagesMenu = "main"
+
+[params]
+	# remember to change branch to master if/once live
+	editURL = "https://github.com/internet4000/support-center/edit/hugo/content/"
+	description = "yada yada"
+
+# think this is to enable search
+# [outputs]
+	# home = [ "HTML", "RSS", "JSON"]

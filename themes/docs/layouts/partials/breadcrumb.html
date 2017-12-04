@@ -1,0 +1,13 @@
+<ol itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+	{{ template "breadcrumb" (dict "p1" . "p2" .) }}
+</ol>
+
+{{define "breadcrumb"}}
+	{{$parent := .page.Parent }}
+	{{ if $parent }}
+		{{ $value := (printf "<a class='black' href='%s'>%s</a> > %s" $parent.URL $parent.Title .value) }}
+		{{ template "breadcrumb" dict "page" $parent "value" $value }}
+	{{else}}
+		{{.value|safeHTML}}
+	{{end}}
+{{end}}
