@@ -77,15 +77,25 @@ Yes. We are discussing and experimenting with the right business model. We want 
 
 Here is an exhaustive list of the available shortcuts (and their mnemotechnics). You can also find them directly on Radio4000 by hovering your mouse on a element (such as a button, a link etc.) of which you would like to find the shortcut of. The shortcut is described by unicode: ⌨
 
-## Keyboard shortcuts - player
+## Keyboard shortcuts
 
-- <kbd>f</kbd> cycle through formats <strong>f</strong>ormats (default, fullscreen, minimized)
-- <kbd>r</kbd> play a <strong>r</strong>andom radio
-- <kbd>n</kbd> play <strong>n</strong>ext track in current radio
+You'd also rather use the keyboard than the mouse?
 
-## Keyboard shortcuts - movements
+### Player shortcuts
 
-These shortcuts are used to move arround the website. The way to use it is to first type on the key <kbd>g</kbd>, then on the other key (you have 500ms).
+With these shortcuts you can control the behavior of the player.
+
+- <kbd>p</kbd> **p**lay/**p**ause the session
+- <kbd>n</kbd> play **n**ext track in current radio
+- <kbd>s</kbd> **s**huffle current track selection
+- <kbd>r</kbd> play a **r**andom radio channel
+- <kbd>f</kbd> cycle through formats **f**ormats (default, fullscreen, minimized)
+
+### Movement shortcuts
+
+These shortcuts are used to move arround the website (Gmail and Github fashion). The way to use
+it is to first type on the key <kbd>g</kbd>, then on the other key
+(you have 500ms to play the second key).
 
 - <kbd>g h</kbd> go to <strong>h</strong>ome
 - <kbd>g r</kbd> go to all <strong>r</strong>adios 
