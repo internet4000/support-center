@@ -88,6 +88,7 @@ With these shortcuts you can control the behavior of the player.
 - <kbd>p</kbd> **p**lay/**p**ause the session
 - <kbd>n</kbd> play **n**ext track in current radio
 - <kbd>s</kbd> **s**huffle current track selection
+- <kbd>m</kbd> (un)**m**ute the volume
 - <kbd>r</kbd> play a **r**andom radio channel
 - <kbd>f</kbd> cycle through formats **f**ormats (default, fullscreen, minimized)
 
@@ -106,5 +107,5 @@ it is to first type on the key <kbd>g</kbd>, then on the other key
 - <kbd>g t</kbd> go to my <strong>t</strong>racks
 - <kbd>g a</kbd> go to <strong>a</strong>dd
 - <kbd>g f</kbd> go to <strong>f</strong>eedback
-- <kbd>g c</kbd> go to <strong>c</strong>urrent radio, the one that is being played
-- <kbd>g x</kbd> go to current track, the one that is being played (x, as in a cross to locate the track/trax)
+- <kbd>g c</kbd> go to <strong>c</strong>urrent radio (the one being played)
+- <kbd>g x</kbd> go to the track being played (**x**, as in a cross to locate the track/trax)
