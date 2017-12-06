@@ -88,7 +88,7 @@ With these shortcuts you can control the behavior of the player.
 - <kbd>s</kbd> **s**huffle current track selection
 - <kbd>m</kbd> (un)**m**ute the volume
 - <kbd>r</kbd> play a **r**andom radio channel
-- <kbd>f</kbd> cycle through formats **f**ormats (default, fullscreen, minimized)
+- <kbd>f</kbd> cycle through **f**ormats (default, fullscreen, minimized)
 
 ### Movement shortcuts
 
