@@ -1,4 +1,4 @@
----
+
 title: Radio4000
 ---
 
@@ -12,7 +12,7 @@ This is the first question we asked ourselves. As you're beginning to add tracks
 
 ## How do I create more than one radio?
 
-You do not :}  You have <strong>one single radio</strong> that presents your taste in music. This is one pillar of Radio4000: one radio = one human. While playlists are useful they can become painful to maintain. But if you only use one, you never have to spend time considering where the song fits. Only whether you enjoy that tune or not. According to us this leads to more exciting radios, creating unexpected bridges between genres, crossing through time, cultures and people. We explore this concept further in the <a href="https://radio4000.com/about">introduction</a>.
+You do not :} You have <strong>one single radio</strong> that presents your taste in music. This is one pillar of Radio4000: one radio = one human. While playlists are useful they can become painful to maintain. But if you only use one, you never have to spend time considering where the song fits. Only whether you enjoy that tune or not. According to us this leads to more exciting radios, creating unexpected bridges between genres, crossing through time, cultures and people. We explore this concept further in the <a href="https://radio4000.com/about">introduction</a>.
 
 ## How do I save a radio to my list of favorites?
 
@@ -75,11 +75,9 @@ To delete your account you will first have to delete your radio channel.
 
 Yes. We are discussing and experimenting with the right business model. We want it to retribute artists and right holders whose tracks are on Radio4000 as people contributing to make Radio4000 a great music tool and radio service. We also want the price to be worth it, so you know precisely what and why why you contribute.
 
-Here is an exhaustive list of the available shortcuts (and their mnemotechnics). You can also find them directly on Radio4000 by hovering your mouse on a element (such as a button, a link etc.) of which you would like to find the shortcut of. The shortcut is described by unicode: ⌨
-
 ## Keyboard shortcuts
 
-You'd also rather use the keyboard than the mouse?
+You'd also rather use the keyboard than the mouse?  Here is an exhaustive list of the available shortcuts (and their mnemotechnics). You can also find them directly on Radio4000 by hovering your mouse on a element (such as a button, a link etc.) of which you would like to find the shortcut of. The shortcut is described by unicode: ⌨
 
 ### Player shortcuts
 
