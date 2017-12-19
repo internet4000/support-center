@@ -76,7 +76,22 @@ Yes. We are discussing and experimenting with the right business model. We want 
 
 ## Keyboard shortcuts
 
-You'd also rather use the keyboard than the mouse?  Here is an exhaustive list of the available shortcuts (and their mnemotechnics). You can also find them directly on Radio4000 by hovering your mouse on a element (such as a button, a link etc.) of which you would like to find the shortcut of. The shortcut is described by unicode: ⌨
+You'd also rather use the keyboard than the mouse?  Here is an
+exhaustive list of the available shortcuts (and their
+mnemotechnics). You can also find them directly on Radio4000 by
+hovering your mouse on a element (such as a button, a link etc.) of
+which you would like to find the shortcut of. The shortcut is
+described by unicode: ⌨
+
+Note: if you click the `Youtube Player` (the video of the track playing in the
+`radio4000-player`) *it will take the focus** for
+keyboard shortcuts. That means  that its shortcuts will be now be
+active, and not the ones of `Radio4000`. If you want to retrieve
+control for the Radio4000 shortcuts, just click anywhere on the
+page. Now you're back in charge
+
+Note: if you really do want to touch the mouse, hit `S-tab` **twice**
+to focus back to Radio4000 (FF).
 
 ### Player shortcuts
 
