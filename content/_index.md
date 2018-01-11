@@ -6,5 +6,5 @@ title: Support Center
 
 Welcome!
 
-Using the menu, you can select the project you would like assistance with.
+Using the menu, select the project you would like assistance with.
 
