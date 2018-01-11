@@ -12,5 +12,7 @@ All content is stored in markdown files inside the `content` folder.
 
 ## The website
 
-Using [Hugo](http://gohugo.io/getting-started/installing/ ) we can build a static website from the markdown files. Make sure it's installed, then run `hugo server` and visit http://localhost:1313 for a preview. To build the site into the `dist` folder, run `hugo`
+Using [Hugo](http://gohugo.io/getting-started/installing/) we can build a static website from the markdown files in the `content` folder.
 
+- To get a development server, run `hugo server` and visit http://localhost:1313
+- To build the site into the `dist` folder, run `hugo`
