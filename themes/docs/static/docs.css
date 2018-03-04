@@ -7,6 +7,12 @@
 h1,
 h2 {
 	line-height: initial;
+}
+
+/* Set typeface for titles */
+h1,
+h2,
+h3 {
 	font-family: system-ui, "Segoe UI", sans-serif;
 }
 
