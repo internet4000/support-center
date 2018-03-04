@@ -1,5 +1,6 @@
 ---
-title: Chat
+title: Community & Chat 
+weight: 10
 ---
 
 Join the community's chat to hang out, find help or contribute to the projects.
