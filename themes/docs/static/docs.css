@@ -27,6 +27,7 @@ kbd {
 li.active > a {
 	background: blue;
 	color: white;
+	text-decoration: none;
 }
 
 /* Remove extra nested ul that we don't control */
