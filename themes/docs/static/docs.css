@@ -38,3 +38,11 @@ li.active > a {
 #TableOfContents > ul > li > ul {
 	padding-left: 1em;
 }
+
+/* We inject links to headers but it doesn't need to look like a link */
+article h2 a,
+article h3 a {
+	color: initial;
+	text-decoration: none;
+}
+
