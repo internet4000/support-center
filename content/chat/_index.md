@@ -2,17 +2,16 @@
 title: Chat
 ---
 
-Join the community's chat to hang out, find help or contribute to the projects.
+Join the community's chat to hang out, find help or contribute to the
+projects [chat.radio4000.com](chat.radio4000.com) (connect to the chat with Riot, no registration needed).
 
-- Modern Matrix: https://riot.im/app/#/room/#radio4000:matrix.org  
-- Classic IRC: https://webchat.freenode.net/?channels=radio4000
+The chat uses the software [Riot](https://riot.im) to work with the
+[Matrix](https://matrix.org) server networks. You are free to use [any
+client compatibable with
+Matrix](https://matrix.org/docs/projects/try-matrix-now.html) to
+connect to the `#radio4000` room.
 
-You are free to use any client compatibable with [Matrix](https://matrix.org/) or the [freenode](http://freenode.net/) IRC network. The room/channel is called `#radio4000` on both.
-
-Here are some more links if you're curious
-
-- https://matrix.to/#/#radio4000:matrix.org 
-- https://matrix.org/docs/projects/try-matrix-now.html
-- https://www.irccloud.com/irc/freenode/channel/radio4000 (freemium)
-- https://irssi.org (IRC client for the command line)
+Alternatively, there is a bridge syncrhonising messages from/to the
+[freenode](http://freenode.net/) IRC network. The room/channel is also
+called `#radio4000`.
 
