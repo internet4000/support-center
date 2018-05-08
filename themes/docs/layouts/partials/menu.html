@@ -1,8 +1,8 @@
 {{ $currentNode := . }}
 
 <ul class="list pa0 ma0">
-	<li class="{{if .IsHome}}active{{end}}">
-		<a class="black db pa2" href="/">Home</a>
+	<li class="mb3 {{if .IsHome}}active{{end}}">
+		<a class="black db pa2" href="/">Support Center</a>
 	</li>
 	{{if eq .Site.Params.ordersectionsby "title"}}
 	  {{range .Site.Home.Sections.ByTitle}}
@@ -14,15 +14,12 @@
 	  {{end}}
 	{{end}}
 
-	<li>
+	<li class="mt3">
 		<a
 			class="black db pa2"
 			href="https://assets.internet4000.com"
 			title="Visual assets for Internet4000's projects">&rarr; Assets</a>
 	</li>
-
-
-
 </ul>
 
 <!-- templates -->
@@ -64,7 +61,7 @@
 		</li>
 	{{else}}
 		{{ if not .Params.Hidden }}
-			<li data-nav-id="{{.URL}}" title="{{.Title}}" class="dd-item {{if eq .UniqueID $currentNode.UniqueID}}active{{end}}">
+			<li data-nav-id="{{.URL}}" title="{{.Title}}" class="{{if eq .UniqueID $currentNode.UniqueID}}active{{end}}">
 				<a class="black db pa2" href="{{ .RelPermalink}}">
 				{{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
 				</a>

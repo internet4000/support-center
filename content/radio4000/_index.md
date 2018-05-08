@@ -1,5 +1,6 @@
 ---
 title: Radio4000
+weight: 1
 ---
 
 Find answers to your questions about [Radio4000.com](https://radio4000.com).  

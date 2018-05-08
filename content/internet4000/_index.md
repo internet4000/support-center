@@ -1,5 +1,6 @@
 ---
 title: Internet4000
+weight: 3
 ---
 
 A multicultural community with <a href="https://internet4000.com">actions</a> in various fields of interests, building tools and services with opinion.
