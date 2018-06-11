@@ -9,7 +9,8 @@ h2 {
 	line-height: initial;
 }
 
-/* Set typeface for titles */
+/* Overwrite sans-serif and set type for titles */
+.sans-serif,
 h1,
 h2,
 h3 {
