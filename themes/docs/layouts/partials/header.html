@@ -19,6 +19,24 @@
 		<nav class="dn db-ns">
 			{{ partial "menu.html" . }}
 		</nav>
+
+		<br>
+		<form>
+			<label>
+				<input type="search" id="search" class="search" placeholder="Search...">
+			</label>
+		</form>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+		<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+		<script>
+			docsearch({
+				apiKey: '89255c22080c15165cab8c9186becc6b',
+				indexName: 'internet_4000',
+				inputSelector: '.search',
+				debug: true
+			});
+		</script>
 	</aside>
 
 	<main class="pl4 pr3 pt2 flex-grow-1">
