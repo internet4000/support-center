@@ -4,7 +4,7 @@ weight: 10
 ---
 
 Join the community's chat to hang out, find help or contribute to the
-projects: [chat.radio4000.com](chat.radio4000.com) (connect to the chat with Riot, no registration needed).
+projects: [chat.radio4000.com](https://chat.radio4000.com) (connect to the chat with Riot, no registration needed).
 
 The chat uses the software [Riot](https://riot.im) to work with the
 [Matrix](https://matrix.org) server networks. You are free to use [any
