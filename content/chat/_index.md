@@ -17,6 +17,6 @@ client compatibable with
 Matrix](https://matrix.org/docs/projects/try-matrix-now.html) to
 connect to the `#radio4000:matrix.org` and `#i4k-doctor:matrix.org` room.
 
-Alternatively, there is a bridge syncrhonising messages from/to the
+Alternatively, there is a bridge synchronising messages from/to the
 [freenode](http://freenode.net/) IRC network. The room/channel is also
 called `#radio4000`.
