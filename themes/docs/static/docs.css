@@ -3,6 +3,20 @@
 	 Also see http://tachyons.io/docs/
  */
 
+html {
+	font-size: 17px;
+}
+@media screen and (min-width: 900px) {
+	html {
+		font-size: 18px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	html {
+		font-size: 19px;
+	}
+}
+
 /* Reset line-height for titles */
 h1,
 h2 {
@@ -54,4 +68,3 @@ article h3 a {
 	color: initial;
 	text-decoration: none;
 }
-
