@@ -28,7 +28,7 @@ h2 {
 h1,
 h2,
 h3 {
-	font-family: system-ui, "Segoe UI", sans-serif;
+	font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 /* Keyboard shortcuts */
