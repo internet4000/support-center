@@ -7,4 +7,4 @@ A multicultural community with <a href="https://internet4000.com">actions</a> in
 
 ## Why are the softwares only in English language?
 
-Focusing the experience on one language makes it easier to maintain and develop the softwares. English is the language of softwares and computers. Translation of the software should occour only in very specific situations.
+Focusing the experience on one language makes it easier to maintain and develop the softwares. English is the language of softwares and computers. Translation of the software should occur only in very specific situations.
