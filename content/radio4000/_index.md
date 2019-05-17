@@ -73,7 +73,7 @@ To delete your account you will first have to delete your radio channel.
 
 ## Any plans for a pro version?
 
-Yes. We are discussing and experimenting with the right business model. We want it to retribute artists and right holders whose tracks are on Radio4000 as people contributing to make Radio4000 a great music tool and radio service. We also want the price to be worth it, so you know precisely what and why why you contribute.
+Yes. We are discussing and experimenting with the right business model. We want it to retribute artists and right holders whose tracks are on Radio4000 as people contributing to make Radio4000 a great music tool and radio service. We also want the price to be worth it, so you know precisely what and why you contribute.
 
 ## Keyboard shortcuts
 
