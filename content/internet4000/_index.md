@@ -3,8 +3,16 @@ title: Internet4000
 weight: 3
 ---
 
-A multicultural community with <a href="https://internet4000.com">actions</a> in various fields of interests, building tools and services with opinion.
+<a href="https://internet4000.com">Internet4000</a> is a communal
+effort to build simple systems, tools and services for everyone.
 
-## Why are the softwares only in English language?
+## How to contribute
 
-Focusing the experience on one language makes it easier to maintain and develop the softwares. English is the language of softwares and computers. Translation of the software should occur only in very specific situations.
+Join the discussion surrounding projets:
+
+
+- All projects's documentation, code, issues and features talks
+  [github/internet4000](https://github.com/internet4000),
+  [gitlab/internet4000](https://gitlab.com/internet4000)
+- Chat and community assistance [#i4k-doctor:matrix.org](https://riot.im/app/#/room/#i4k-doctor:matrix.org)
+
