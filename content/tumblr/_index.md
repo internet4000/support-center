@@ -4,7 +4,7 @@ weight: 9
 ---
 
 Create a professional website with our [custom Tumblr
-themes](https://tumblr.internet4000.com).
+themes](https://www.tumblr.com/themes/by/balconythemes).
 Need more assistance? Come [ask questions to our
 community](https://groups.google.com/forum/#!forum/balcony-themes)!
 
@@ -27,7 +27,7 @@ community](https://groups.google.com/forum/#!forum/balcony-themes)!
 
 - You need to have and account on Tumblr, create it at [https://tumblr.com](https://tumblr.com)
 - You need to be logged in Tumblr, log in at [https://tumblr.com](https://tumblr.com)
-- Visit the page [http://tumblr.internet4000.com/](http://tumblr.internet4000.com/)
+- Visit the page [https://www.tumblr.com/themes/by/balconythemes](https://www.tumblr.com/themes/by/balconythemes)
 - Click the **"All themes"** link, or select a theme on this page.
 - On this new page, there is a selection of themes that you can
 	use. Click **"preview"** to see an exemple blog
