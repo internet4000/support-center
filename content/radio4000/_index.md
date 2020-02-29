@@ -56,6 +56,10 @@ None, really. We do not want your name, your pictures, your sex, age, or any oth
 
 Short answer is yes. Long answer is no. Why? Everyone see radios the same way. Everything you add to your channel is public. If you want to stay anonymous, don't write your own name; except if you actually want them to know. It is up to you. About the long answer, unfortunately, is there such thing as anonymity on the internet? Not as it is right now. So to us, we want to do as much as possible to keep you pricacy intact. We recommend you to <a href="https://ssd.eff.org" target="_blank" rel="noopener">read this</a>, if you have any concerns.
 
+### VPN
+
+To improve your anonymity, you should use a VPN software, such as [Proton VPN](https://protonvpn.com)
+
 ## How to delete my radio channel?
 
 1. Log in your Radio4000 account
