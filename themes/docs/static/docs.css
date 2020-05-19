@@ -11,6 +11,8 @@ html {
 	flex-grow: 1;
 	min-height: 100vh;
 	justify-content: center;
+	background: white;
+	color: black;
 }
 body {
 	display: flex;
