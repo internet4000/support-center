@@ -1,5 +1,5 @@
 ---
-title: Internet4000
+title: internet4000
 weight: 3
 ---
 
@@ -9,9 +9,11 @@ effort to build simple open systems, tools, platforms and services for everyone,
 ## How to explore
 
 All projects's documentation, issues, code, feature talks:
--  [github/internet4000](https://github.com/internet4000)
--  [gitlab/internet4000](https://gitlab.com/internet4000)
+
+- [github/internet4000](https://github.com/internet4000)
+- [gitlab/internet4000](https://gitlab.com/internet4000)
 
 
 General chat and community assistance:
+
 - [#internet4000:matrix.org](https://app.element.io/#/room/#internet4000:matrix.org)
