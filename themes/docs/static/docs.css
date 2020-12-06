@@ -6,6 +6,7 @@
 :root {
 	--color-bg: white;
 	--color-link-external: whitesmoke;
+	--color-link-external-hover: gold;
 }
 
 html {
@@ -112,13 +113,18 @@ article h3 a {
 	text-decoration: none;
 }
 
+a:hover {
+	background-color: var(--color-link-external);
+	transition: background-color ease-in-out 300ms;
+}
+
 a[href^="https://"],
 a[href^="http://"] {
 	background-color: var(--color-link-external);
 	padding: 0.1rem;
-	transition: background-color ease-in-out 300ms;
 }
 
-a[href^="https://"]:hover:before {
-	background-color: transparent;
+a[href^="https://"]:hover,
+a[href^="http://"]:hover {
+	background-color: var(--color-link-external-hover);
 }
