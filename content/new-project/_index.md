@@ -1,5 +1,5 @@
 ---
-title: New project
+title: new
 weight: 1
 ---
 

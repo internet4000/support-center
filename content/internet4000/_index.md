@@ -1,5 +1,5 @@
 ---
-title: internet4000
+title: internet4000.com
 weight: 3
 ---
 

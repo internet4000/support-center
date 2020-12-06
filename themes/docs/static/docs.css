@@ -128,3 +128,7 @@ a[href^="https://"]:hover,
 a[href^="http://"]:hover {
 	background-color: var(--color-link-external-hover);
 }
+
+nav select option {
+	text-transform: lowercase;
+}

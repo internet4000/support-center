@@ -1,5 +1,5 @@
 ---
-title: Radio4000 Mix
+title: mix.radio4000.com
 weight: 2
 ---
 
