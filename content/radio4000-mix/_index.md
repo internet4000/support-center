@@ -1,6 +1,6 @@
 ---
 title: mix.radio4000.com
-weight: 2
+weight: 3
 ---
 
 https://mix.radio4000.com lets you mix together radio channels from Radio4000.com
