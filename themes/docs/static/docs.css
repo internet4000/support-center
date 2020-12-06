@@ -1,7 +1,12 @@
 /*
 	 Styles for the "Docs" theme for Hugo.
 	 Also see http://tachyons.io/docs/
- */
+*/
+
+:root {
+	--color-bg: white;
+	--color-link-external: whitesmoke;
+}
 
 html {
 	font-size: 17px;
@@ -11,7 +16,7 @@ html {
 	flex-grow: 1;
 	min-height: 100vh;
 	justify-content: center;
-	background: white;
+	background: var(--color-bg);
 	color: black;
 }
 body {
@@ -105,4 +110,15 @@ article h2 a,
 article h3 a {
 	color: initial;
 	text-decoration: none;
+}
+
+a[href^="https://"],
+a[href^="http://"] {
+	background-color: var(--color-link-external);
+	padding: 0.1rem;
+	transition: background-color ease-in-out 300ms;
+}
+
+a[href^="https://"]:hover:before {
+	background-color: transparent;
 }
