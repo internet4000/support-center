@@ -1,7 +1,12 @@
 {{ partial "header.html" . }}
 
 <article data-single>
-	<h1>{{ .Title }}</h1>
+	<h1>
+		<a href="{{ .Permalink }}">
+			{{ .Title }}
+		</a>
+	</h1>
+
 
 	<aside>
 		{{ if and (gt .WordCount 200 ) (ne .Params.toc "false") }}

@@ -1,70 +1,147 @@
-/*
-	 Styles for the "Docs" theme for Hugo.
-	 Also see http://tachyons.io/docs/
-*/
+@import 'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css';
 
 :root {
+	--color-text: black;
 	--color-bg: white;
+	--color-bg-light: whitesmoke;
 	--color-link-external: whitesmoke;
 	--color-link-external-hover: gold;
+
+	--fs-html: 17px;
+	--fs-defaut: 1rem;
+
+	--space: 1rem;
+	--site-max-width: 45rem;
 }
 
+/* boxmodel */
 html {
-	font-size: 17px;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* defaults */
+html {
+	font-size: var(--fs-default);
 	line-height: 1.5;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	flex-grow: 1;
 	min-height: 100vh;
 	justify-content: center;
 	background: var(--color-bg);
-	color: black;
+	color: var(--color-text);
 }
-body {
+@media (min-width: 50rem) {
+	html {
+		font-size: calc(var(--fs-defaut) + 1px);
+	}
+}
+@media (min-width: 70rem) {
+	html {
+		font-size: calc(var(--fs-defaut) + 2px);
+	}
+}
+
+/* site layouts */
+.Site {
 	display: flex;
 	flex-direction: column;
 	flex-grow: 1;
+	max-width: var(--site-max-width);
+	padding: 1rem;
 }
-body > main {
+
+.Site-main {
 	display: flex;
 	flex-direction: column;
 	flex-grow: 1;
 	justify-content: center;
+	width: 100%;
 }
-body > header {
+
+.Site-header {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 
 	position: sticky;
+	z-index: 3;
 	top: 0.5rem;
 }
-@media screen and (min-width: 900px) {
-	html {
-		font-size: 18px;
-	}
+
+.Site-nav,
+.Site-search {
+	flex-grow: 1;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: calc(var(--space) /2);
 }
-@media screen and (min-width: 1200px) {
-	html {
-		font-size: 19px;
+
+.Site-main,
+.Site-nav,
+.Site-search {
+	opacity: 0;
+	transition: opacity 400ms ease-in-out;
+}
+
+.Site.is-loaded .Site-main,
+.Site.is-loaded .Site-nav,
+.Site.is-loaded .Site-search {
+	opacity: 1;
+}
+
+.Site.is-loaded .Site-main {
+	transition-delay: 300ms;
+}
+.Site.is-loaded .Site-search {
+	transition-delay: 600ms;
+}
+.Site.is-loaded .Site-nav {
+	transition-delay: 300ms;
+	transition-duration: 1200ms;
+}
+
+.Site-main h1 {
+	background-color: var(--color-bg-light);
+	z-index: 1;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	display: flex;
+}
+
+@media (min-width: 50rem) {
+	.Site-main h1 {
+		position: sticky;
+		top: calc(var(--space) * 3);
+		background-color: var(--color-bg);
+		z-index: 0;
 	}
 }
 
-body {
-	max-width: 45rem;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 1rem;
+.Site-main h1 a {
+	text-decoration: none;
+	color: var(--color-text);
+	padding: calc(var(--space));
+}
+@media (min-width: 50rem) {
+	.Site-main h1 a {
+		padding: 0;
+	}
 }
 
-/* Reset line-height for titles */
+/* typo */
 h1,
 h2 {
 	line-height: initial;
 }
 
-/* Overwrite sans-serif and set type for titles */
-.sans-serif,
 h1,
 h2,
 h3 {
@@ -131,4 +208,31 @@ a[href^="http://"]:hover {
 
 nav select option {
 	text-transform: lowercase;
+}
+
+/* form (search) */
+form,
+input {
+	width: 100%;
+}
+
+/* algolia */
+.algolia-autocomplete {
+	width: 100%;
+	position: static !important;
+}
+
+.algolia-autocomplete .ds-dropdown-menu {
+	position: absolute !important;
+	top: calc(var(--space) * 5) !important;
+	left: 0 !important;
+	right: 0 !important;
+	max-width: 100% !important;
+	min-width: 100% !important;
+}
+
+@media (min-width: 30rem) {
+	.algolia-autocomplete .ds-dropdown-menu {
+		top: calc(var(--space) * 3) !important;
+	}
 }

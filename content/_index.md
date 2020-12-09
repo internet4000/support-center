@@ -2,8 +2,6 @@
 title: Support Center
 ---
 
-# Support Center ☯
-
 Hi!
 
 You are in the right place if you're looking for help, answers or have questions.
@@ -13,3 +11,5 @@ More information:
 
 - [about](/internet4000)
 - [internet4000.com](https://internet4000.com)
+
+☯

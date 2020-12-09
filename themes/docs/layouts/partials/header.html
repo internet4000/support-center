@@ -9,31 +9,25 @@
 	{{ template "_internal/opengraph.html" . }}
 	<link rel="stylesheet" href="{{"docs.css" | relURL}}">
 </head>
-<body class="" data-url="{{ .RelPermalink }}">
+<body class="Site" data-url="{{ .RelPermalink }}">
 
-	<header class="">
-		<nav>
-			{{ partial "menu-select.html" . }}
-		</nav>
-		<nav style="display: none;">
-			{{ partial "menu.html" . }}
-		</nav>
+	<header class="Site-header">
+		<aside class="Site-nav">
+			<nav>
+				{{ partial "menu-select.html" . }}
+			</nav>
+			<nav style="display: none;">
+				{{ partial "menu.html" . }}
+			</nav>
+		</aside>
 
-		<form>
-			<label>
-				<input type="search" id="search" placeholder="Search...">
-			</label>
-		</form>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
-		<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
-		<script>
-			docsearch({
-				apiKey: '89255c22080c15165cab8c9186becc6b',
-				indexName: 'internet_4000',
-				inputSelector: '#search',
-				debug: true
-			});
-		</script>
+		<aside class="Site-search">
+			<form>
+				<label>
+					<input type="search" id="search" placeholder="Search...">
+				</label>
+			</form>
+		</aside>
 	</header>
 
-	<main class="">
+	<main class="Site-main">
