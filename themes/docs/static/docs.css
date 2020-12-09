@@ -61,6 +61,15 @@ html {
 	flex-grow: 1;
 	justify-content: center;
 	width: 100%;
+	padding-top: calc(var(--space) * 2);
+	padding-bottom: calc(var(--space) * 4);
+}
+
+@media (min-width: 50rem) {
+	.Site-main {
+		padding-top: calc(var(--space) * 2);
+		padding-bottom: calc(var(--space) * 2);
+	}
 }
 
 .Site-header {
@@ -79,30 +88,6 @@ html {
 	display: flex;
 	justify-content: flex-start;
 	margin-bottom: calc(var(--space) /2);
-}
-
-.Site-main,
-.Site-nav,
-.Site-search {
-	opacity: 0;
-	transition: opacity 400ms ease-in-out;
-}
-
-.Site.is-loaded .Site-main,
-.Site.is-loaded .Site-nav,
-.Site.is-loaded .Site-search {
-	opacity: 1;
-}
-
-.Site.is-loaded .Site-main {
-	transition-delay: 300ms;
-}
-.Site.is-loaded .Site-search {
-	transition-delay: 600ms;
-}
-.Site.is-loaded .Site-nav {
-	transition-delay: 300ms;
-	transition-duration: 1200ms;
 }
 
 .Site-main h1 {

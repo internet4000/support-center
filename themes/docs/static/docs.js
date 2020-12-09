@@ -5,9 +5,6 @@ function addAnchor(element) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-	document.querySelector('body').classList.add('is-loaded')
-
-
 	docsearch({
 		apiKey: '89255c22080c15165cab8c9186becc6b',
 		indexName: 'internet_4000',
