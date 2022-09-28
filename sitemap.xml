@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/new-project/</loc>
+  </url>
+  
+  <url>
+    <loc>/radio4000/</loc>
+  </url>
+  
+  <url>
+    <loc>/radio4000-mix/</loc>
+  </url>
+  
+  <url>
+    <loc>/internet4000/</loc>
+  </url>
+  
+  <url>
+    <loc>/chat/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
