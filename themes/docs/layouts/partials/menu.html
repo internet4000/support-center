@@ -27,7 +27,7 @@
  {{with .sect}}
 	{{if .IsSection}}
 		{{safeHTML .Params.head}}
-		<li data-nav-id="{{.Permalink}}" title="{{.Title}}" class="{{if .IsAncestor $currentNode }}parent{{end}} {{if eq .CurrentSection $currentNode.}}active{{end}} {{if .Params.alwaysopen}}parent{{end}}">
+		<li data-nav-id="{{.Permalink}}" title="{{.Title}}" class="{{if .IsAncestor $currentNode }}parent{{end}} {{if eq .CurrentSection $currentNode.CurrentSection}}active{{end}} {{if .Params.alwaysopen}}parent{{end}}">
 			<a href="{{.RelPermalink}}">
 				{{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
 			</a>
@@ -60,7 +60,7 @@
 		</li>
 	{{else}}
 		{{ if not .Params.Hidden }}
-			<li data-nav-id="{{.}}" title="{{.Title}}" class="{{if eq . $currentNode.}}active{{end}}">
+			<li data-nav-id="{{.}}" title="{{.Title}}" class="{{if eq .CurrentSection $currentNode.CurrentSection}}active{{end}}">
 				<a href="{{ .RelPermalink}}">
 				{{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
 				</a>
