@@ -24,7 +24,7 @@ jobs:
 
       - name: Build
         run: hugo
-        run: mv build public
+        run: mv dist public
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
