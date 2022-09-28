@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-	{{ .Hugo.Generator }}
 	<title>{{ .Title }} - {{ .Site.Title }}</title>
 	{{ template "_internal/opengraph.html" . }}
 	<link rel="stylesheet" href="{{"docs.css" | relURL}}">
