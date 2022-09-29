@@ -49,6 +49,7 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Move build folder to githubpage default
         run: mv dist/ _site/
 
   # Deployment job
