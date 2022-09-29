@@ -51,6 +51,7 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Move build folder to githubpage default
         run: mv dist/ _site/
+        run: ls -la
 
   # Deployment job
   deploy:
