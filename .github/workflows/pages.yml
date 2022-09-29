@@ -49,6 +49,7 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: mv dist/ _site/
 
   # Deployment job
   deploy:
@@ -61,5 +62,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        run: mv dist/ _site/
         uses: actions/upload-pages-artifact@v1
